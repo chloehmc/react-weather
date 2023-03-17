@@ -53,7 +53,7 @@ export default function App() {
         <a
           href="https://github.com/chloehmc/react-weather"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           Open source code
         </a>{" "}
