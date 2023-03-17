@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Weather from "./Weather";
 import axios from "axios";
+
 import "./App.css";
 
 export default function App() {
@@ -48,6 +49,12 @@ export default function App() {
           icon={icon}
         />
       </div>
+      <small>
+        <a href="https://github.com/chloehmc/react-weather" target="_blank">
+          Open source code
+        </a>{" "}
+        by Chloe Comstock
+      </small>
     </div>
   );
 }
