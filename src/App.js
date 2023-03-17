@@ -50,7 +50,11 @@ export default function App() {
         />
       </div>
       <small>
-        <a href="https://github.com/chloehmc/react-weather" target="_blank">
+        <a
+          href="https://github.com/chloehmc/react-weather"
+          target="_blank"
+          rel="noreferrer"
+        >
           Open source code
         </a>{" "}
         by Chloe Comstock
